@@ -1,0 +1,42 @@
+{
+  "originHash" : "2f6641d421022007e90bbc6d479e354f83bc2a152089c82f3751efc7e109c02f",
+  "pins" : [
+    {
+      "identity" : "datavault",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Datavault",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9b38566cc2acb088199b0591d8ba6d4c8150b63e"
+      }
+    },
+    {
+      "identity" : "distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Distribution",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a911b9cab731688174a77270b686251f15cc92bf"
+      }
+    },
+    {
+      "identity" : "xbus",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Xbus",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ed27ce1af721bda8c1d41eb357522c9e4c327a12"
+      }
+    },
+    {
+      "identity" : "xware",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Xware",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4c9cf9b5a85310bf85150510737235eebbac118d"
+      }
+    }
+  ],
+  "version" : 3
+}
