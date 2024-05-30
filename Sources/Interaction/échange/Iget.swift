@@ -55,7 +55,7 @@ struct Iget: View {
         }.toolbar {
             ToolbarItem(placement: .principal) {
                 if etat != .obtenir {
-                    Button("back") {etat = .obtenir}
+                    Button("obtenir") {etat = .obtenir}
                         .frame(width:100)
                 }
             }

@@ -36,7 +36,7 @@ struct Imanage: View {
     .toolbar {
         ToolbarItem(placement: .principal) {
             if etat != .gérer {
-                Button("back") {etat = .gérer}
+                Button("gérer") {etat = .gérer}
                     
             }
         }

@@ -54,7 +54,7 @@ struct Iput: View {
     }.toolbar {
         ToolbarItem(placement: .principal) {
             if etat != .fournir {
-                Button("back") {etat = .fournir}
+                Button("fournir") {etat = .fournir}
                     .frame(width:100)
             }
         }
